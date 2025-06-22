@@ -1,0 +1,6 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+opencv-python==4.9.0.80
+numpy==1.26.4
+qdrant-client==1.6.0
+python-multipart==0.0.9
