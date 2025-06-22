@@ -45,8 +45,8 @@ A FastAPI application that:
 
 
 # 1️⃣ Clone the repository
-git clone https://github.com/your-username/FrameIQ.git
-cd FrameIQ
+git clone https://github.com/your-username/-FrameIQ.git
+cd -FrameIQ
 
 # 2️⃣ Create and activate virtual environment
 python -m venv venv
@@ -86,6 +86,7 @@ Example response:
     "frames/frame_1.jpg"
   ]
 }
+
 🔍 POST /query/
 Upload an image to search for similar frames.
 
@@ -132,6 +133,7 @@ Data is temporary (resets on restart)
 To persist data, you can connect to a local Qdrant instance
 
 🐞 Troubleshooting
+
 ❌ No module named 'distutils'?
 Run:
 pip install --upgrade pip setuptools
